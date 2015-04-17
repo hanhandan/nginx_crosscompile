@@ -1,0 +1,164 @@
+libpcre_la-pcre_ord2utf8.lo: pcre_ord2utf8.c \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdc-predef.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/predefs.h \
+ config.h pcre_internal.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/ctype.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/features.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/wordsize.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/gnu/stubs.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/gnu/stubs-hard.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/types.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/typesizes.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/endian.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/endian.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/byteswap.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/byteswap-16.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/xlocale.h \
+ /opt/arm-linux-amlogic-gnueabihf/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/4.8.3/include-fixed/limits.h \
+ /opt/arm-linux-amlogic-gnueabihf/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/4.8.3/include-fixed/syslimits.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/limits.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/posix1_lim.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/local_lim.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/linux/limits.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/posix2_lim.h \
+ /opt/arm-linux-amlogic-gnueabihf/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stddef.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdio.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/libio.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/_G_config.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/wchar.h \
+ /opt/arm-linux-amlogic-gnueabihf/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stdarg.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/stdio_lim.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/sys_errlist.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/stdio.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdlib.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/waitflags.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/waitstatus.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/types.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/time.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/select.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/select.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/sigset.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/time.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/sysmacros.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/alloca.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/stdlib-bsearch.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/stdlib-float.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/string.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/string.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/string2.h \
+ /opt/arm-linux-amlogic-gnueabihf/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stdint.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdint.h \
+ /opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/wchar.h \
+ pcre.h ucp.h
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdc-predef.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/predefs.h:
+
+config.h:
+
+pcre_internal.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/ctype.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/features.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/cdefs.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/wordsize.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/gnu/stubs.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/gnu/stubs-hard.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/types.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/typesizes.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/endian.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/endian.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/byteswap.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/byteswap-16.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/xlocale.h:
+
+/opt/arm-linux-amlogic-gnueabihf/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/4.8.3/include-fixed/limits.h:
+
+/opt/arm-linux-amlogic-gnueabihf/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/4.8.3/include-fixed/syslimits.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/limits.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/posix1_lim.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/local_lim.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/linux/limits.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/posix2_lim.h:
+
+/opt/arm-linux-amlogic-gnueabihf/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stddef.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdio.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/libio.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/_G_config.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/wchar.h:
+
+/opt/arm-linux-amlogic-gnueabihf/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stdarg.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/sys_errlist.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/stdio.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdlib.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/waitflags.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/waitstatus.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/types.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/time.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/select.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/select.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/sigset.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/time.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/alloca.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/stdlib-bsearch.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/stdlib-float.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/string.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/string.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/string2.h:
+
+/opt/arm-linux-amlogic-gnueabihf/opt/ext-toolchain/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stdint.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdint.h:
+
+/opt/arm-linux-amlogic-gnueabihf/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/bits/wchar.h:
+
+pcre.h:
+
+ucp.h:
