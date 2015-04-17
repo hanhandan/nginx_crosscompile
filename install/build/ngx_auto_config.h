@@ -1,4 +1,4 @@
-#define NGX_CONFIGURE " --prefix=/home/vincent/samba/software/nginx_crosscompile/install --user=root --group=root --builddir=/home/vincent/samba/software/nginx_crosscompile/install/build --with-zlib=/home/vincent/samba/software/nginx_crosscompile/install/../zlib-1.2.8 --with-pcre --with-pcre=/home/vincent/samba/software/nginx_crosscompile/install/../pcre-8.36 --with-pcre-jit --with-cc=arm-linux-gnueabihf-gcc --with-cpp=arm-linux-gnueabihf-c++ --with-poll_module --with-select_module --test-build-devpoll"
+#define NGX_CONFIGURE " --prefix=/tmp/nginx --user=root --group=root --builddir=/tmp/nginx/build --with-zlib=/home/vincent/samba/software/nginx_1.1/nginx_crosscompile/nginx-1.6.3/../zlib-1.2.8 --with-pcre --with-pcre=/home/vincent/samba/software/nginx_1.1/nginx_crosscompile/nginx-1.6.3/../pcre-8.36 --with-pcre-jit --with-cc=arm-linux-gnueabihf-gcc --with-cpp=arm-linux-gnueabihf-c++"
 
 #ifndef NGX_COMPILER
 #define NGX_COMPILER  "gcc 4.8.3 20140203 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2014.02 - Linaro GCC 2014.02) "
@@ -268,26 +268,6 @@
 #endif
 
 
-#ifndef NGX_HAVE_SELECT
-#define NGX_HAVE_SELECT  1
-#endif
-
-
-#ifndef NGX_HAVE_POLL
-#define NGX_HAVE_POLL  1
-#endif
-
-
-#ifndef NGX_HAVE_DEVPOLL
-#define NGX_HAVE_DEVPOLL  1
-#endif
-
-
-#ifndef NGX_TEST_BUILD_DEVPOLL
-#define NGX_TEST_BUILD_DEVPOLL  1
-#endif
-
-
 #ifndef NGX_HTTP_CACHE
 #define NGX_HTTP_CACHE  1
 #endif
@@ -359,7 +339,7 @@
 
 
 #ifndef NGX_PREFIX
-#define NGX_PREFIX  "/home/vincent/samba/software/nginx_crosscompile/install/"
+#define NGX_PREFIX  "/tmp/nginx/"
 #endif
 
 

@@ -55,6 +55,7 @@ fi
 . auto/os/conf
 
 if [ "$NGX_PLATFORM" != win32 ]; then
+    echo $NGX_PLATFORM
     . auto/unix
 fi
 

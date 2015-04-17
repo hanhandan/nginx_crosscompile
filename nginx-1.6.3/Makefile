@@ -2,20 +2,20 @@
 default:	build
 
 clean:
-	rm -rf Makefile /home/vincent/samba/software/nginx_crosscompile/install/build
+	rm -rf Makefile /tmp/nginx/build
 
 build:
-	$(MAKE) -f /home/vincent/samba/software/nginx_crosscompile/install/build/Makefile
-	$(MAKE) -f /home/vincent/samba/software/nginx_crosscompile/install/build/Makefile manpage
+	$(MAKE) -f /tmp/nginx/build/Makefile
+	$(MAKE) -f /tmp/nginx/build/Makefile manpage
 
 install:
-	$(MAKE) -f /home/vincent/samba/software/nginx_crosscompile/install/build/Makefile install
+	$(MAKE) -f /tmp/nginx/build/Makefile install
 
 upgrade:
-	/home/vincent/samba/software/nginx_crosscompile/install/sbin/nginx -t
+	/tmp/nginx/sbin/nginx -t
 
-	kill -USR2 `cat /home/vincent/samba/software/nginx_crosscompile/install/logs/nginx.pid`
+	kill -USR2 `cat /tmp/nginx/logs/nginx.pid`
 	sleep 1
-	test -f /home/vincent/samba/software/nginx_crosscompile/install/logs/nginx.pid.oldbin
+	test -f /tmp/nginx/logs/nginx.pid.oldbin
 
-	kill -QUIT `cat /home/vincent/samba/software/nginx_crosscompile/install/logs/nginx.pid.oldbin`
+	kill -QUIT `cat /tmp/nginx/logs/nginx.pid.oldbin`

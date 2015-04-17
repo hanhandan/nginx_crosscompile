@@ -1,11 +1,13 @@
 #!/bin/bash
-if [ $# -lt 1 ]; then
+if [ $# -lt 2 ]; then
 echo "Please input output dir"
-echo "$0 /tmp/output"
+echo "$0 /tmp/nginx /tmp/output"
 exit 1
 fi
-
-OUTPUT=$1
+SRC_DIR=$1
+OUTPUT=$2
+cd $SRC_DIR
+find . -name "*.o" | xargs rf -rf
 rm -rf CONTROL
 mkdir CONTROL
 find ./ | grep ".svn" | xargs rm -rf
